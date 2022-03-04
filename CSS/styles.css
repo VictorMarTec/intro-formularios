@@ -1,0 +1,107 @@
+body{
+    background: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    background: #0677ba;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 200px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+/*
+.logo {
+    width: 300px;
+    height: 50px;
+}
+*/
+
+.main-page {
+    background-color: #F9F9F8;
+    padding: 80px 0px 130px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #e9e6e6; /*borde exterior*/
+    border-radius: 5px; /*Bordes redondeados*/
+    width: 22em;
+    padding: 22px 28px 22px 28px;
+}
+
+.title-form {
+    margin: 0px 0px 20px 0px; 
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-end;
+}
+
+.title-form span {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.title-form a {
+    color: #9ea4b4; 
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif; 
+    text-decoration: none; 
+    font-size: 13px;
+}
+
+.code {
+    display: flex;
+    align-content: stretch;
+}
+
+.access-code{
+    background-color: #EEEEEE;
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    padding: 11px;
+    font-size: 16px;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 12px;
+    color: #9A9FA8;
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.botton input {
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #5FB8D5;
+    border: 1px solid #4baecf;
+    padding: 9px;
+}
+
+footer {
+    display: flex;
+    background-color: #eeeeee;
+    align-items: flex-end;
+    padding: 40px 0px 20px 200px;
+}
+
+.info-final {
+    color: #55667A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.info-link {
+    color: #55667A;
+    text-decoration: none;
+}
